@@ -1,0 +1,23 @@
+[include]
+	path = ~/.gitconfig.local
+[push]
+	default = current
+[alias]
+	br = branch
+	ck = checkout
+	ckb = checkout -b
+
+	st = status
+
+	adp = add -p
+	res = restore
+	restage = restore --staged
+
+	cm = commit
+	cmame = commit --amend
+	ps = push
+
+	lone = log --oneline
+
+	rbi = rebase -i
+	rbcon = rebase --continue
