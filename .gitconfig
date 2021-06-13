@@ -7,6 +7,10 @@
 	ck = checkout
 	ckb = checkout -b
 
+	stals = stash list
+	stap = stash apply stash@{0}
+	stadro = stash drop stash@{0}
+
 	st = status
 
 	adp = add -p
